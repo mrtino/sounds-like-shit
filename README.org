@@ -1,0 +1,9 @@
+* Sounds like shit
+La soundboard des politiciens qui devraient rendre l'argent
+
+Ne sont publiées ici que les sons et l'interface. Pour recompiler l'application chez soi, voici comment procéder :
+
+  - Installer Apache Cordova. Créer un nouveau projet avec ~cordova create soundboard io.mrtino.soundboard~ (io.mrtino.soundboard pouvant évidemment être remplacé).
+  - Pour faire l'application pour Android ~cordova add platform android --save~, pour une autre plateforme, voir la documentation d'Apache Cordova.
+  - Copier le contenu de ce dépôt Git dans les dossiers respectifs.
+  - ~cordova run android~ pour compiler et installer l'application.
